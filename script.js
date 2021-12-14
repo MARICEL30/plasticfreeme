@@ -1,14 +1,3 @@
-//toggle list, clicking the buttom at the top
-
-let btn = document.getElementById("btn");
-let maintablecontainer = document.getElementById("main-table");
-
-btn.addEventListener("click", function() {
-  console.log(maintablecontainer);
-  maintablecontainer.classList.toggle("open");
-});
-
-
 
 //making the list with google sheets and an api service
 
