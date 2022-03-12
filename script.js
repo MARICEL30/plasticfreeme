@@ -72,6 +72,21 @@ function makeTable(data) {
  
 }
 
+//Show more button
+
+const loadMore = document.getElementById("loadMore");
+const table = document.querySelector(".table");
+
+
+loadMore.addEventListener("click", (e) => {
+table.classList.toggle("show-more");
+
+})
+
+
+
+
+
 window.addEventListener("load", getRows);
 
 
