@@ -280,6 +280,29 @@ td {
   }
 
 
+
+  #loadMore {
+    padding: 15px;
+    width: 150px;
+    background-color: var( --green);
+    color:#000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+
+  }
+
+  .tableData {
+  display: none;
+}
+
+  .tatble.show-more .tableData {
+  display: block;
+}
+
+
   #map {
 
     width: 100vw;
