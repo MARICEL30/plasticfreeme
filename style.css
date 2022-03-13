@@ -277,7 +277,7 @@ td {
   }
 
   tr:nth-child(even) {
-    background-color: var(--darkgreen);
+    background-color: var(--green);
   }
 
 
@@ -285,7 +285,7 @@ td {
   #loadMore {
     padding: 15px;
     width: 150px;
-    background-color: var( --green);
+    background-color: var( --darkgreen);
     color:#000;
     border: none;
     outline: none;
