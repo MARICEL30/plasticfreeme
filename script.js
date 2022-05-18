@@ -155,7 +155,7 @@ function initMap() {
   const brighton = { lat:50.888212725751195 , lng: -0.20438173195189485 };
    const map = new google.maps.Map(document.getElementById("map"), {
     mapId: "576aba331fc3dae5",
-    zoom: 12,
+    zoom: 15,
     center: brighton,
   });
 
