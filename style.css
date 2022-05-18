@@ -324,10 +324,18 @@ td {
 
 }
 
+
+.map-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 60px;
+}
+
   #map {
 
     width: 100vw;
-    height: 100vh; 
+    height: 300px;
     border: 0;
     z-index: 1;
   }
