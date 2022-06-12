@@ -335,7 +335,7 @@ td {
   #map {
 
     width: 100vw;
-    height: auto;
+    height: 600px;
     z-index: 1;
   }
 
