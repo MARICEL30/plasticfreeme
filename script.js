@@ -148,7 +148,7 @@ function initAutocomplete() {
     document.getElementById("autocomplete"),
     {
       types: ['establishment'],
-      componentRestrictions : {'country' : ['UK']},
+      componentRestrictions : {'country' : ['GB']},
       fields: ['place_id', 'geometry', 'name']
 
     });
