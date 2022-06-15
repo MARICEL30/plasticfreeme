@@ -89,7 +89,9 @@
 
    <div class="map-container">
 
-   <div id="map"> </div>
+   <div id="map">
+      <input id="autocomplete" placeholder="Enter a place" type="text"/> 
+       </div>
 
    </div>
 
@@ -98,7 +100,13 @@
 
     
     <script src="script.js"></script>
+    
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6hu1gP4bssPSrZuNl3uBBbxGCZ1FU_0c&map_ids=576aba331fc3dae5&callback=initMap"
     ></script>
+    
+        <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6hu1gP4bssPSrZuNl3uBBbxGCZ1FU_0c&libraries=places&callback=initMap">
+</script>
+    
     </body>
 </html>
