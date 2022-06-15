@@ -142,6 +142,18 @@ prevBtn.addEventListener("click", prevPage);
 
 
 
+let autocomplete;
+function initAutocomplete() {
+ autocomplete = new google.maps.places.Autocomplete(
+    document.getElementById("autocomplete"),
+    {
+      types: ['establishment'],
+      componentRestrictions : {'country' : ['UK']},
+      fields: ['place_id', 'geometry', 'name']
+
+    });
+}
+
 
 //creating the google map and positioning the markers for every shop on the map
 
