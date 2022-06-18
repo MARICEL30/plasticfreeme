@@ -144,14 +144,6 @@ prevBtn.addEventListener("click", prevPage);
 
 //creating the google map and positioning the markers for every shop on the map
 
-// function initMap() {
-//   const brighton = { lat:50.888212725751195 , lng: -0.20438173195189485 };
-//    const map = new google.maps.Map(document.getElementById("map"), {
-//     mapId: "576aba331fc3dae5",
-//     zoom: 13,
-//     center: brighton,
-//   });
-
 
   function initMap() {
     const london = { lat:  51.51261285783822, lng: -0.09126810397204964 };
@@ -170,6 +162,9 @@ prevBtn.addEventListener("click", prevPage);
       },
       map,
       title: "Roots and Hoots",
+      color: "#eb3a44",
+      fontSize: "16px",
+      fontWeight: "bold",
       icon: {
         url:"images/shop-svg.svg",
         scaledSize:  new google.maps.Size(38, 31)
