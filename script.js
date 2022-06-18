@@ -162,9 +162,6 @@ prevBtn.addEventListener("click", prevPage);
       },
       map,
       title: "Roots and Hoots",
-      color: "#eb3a44",
-      fontSize: "16px",
-      fontWeight: "bold",
       icon: {
         url:"images/shop-svg.svg",
         scaledSize:  new google.maps.Size(38, 31)
