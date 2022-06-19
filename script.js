@@ -27,6 +27,7 @@ function resetPaging(arrayLength = alldata.length) {
 function getRows() {
  fetch(url)
  .then(response => response.json())
+  .catch((err) => console.error(err))
   .then(data => {
     alldata = data["sheet1"];
     tableData = [...alldata];
