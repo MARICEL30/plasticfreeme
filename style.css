@@ -313,13 +313,23 @@ td {
   
 }
 
-#page, .page {
-
-  padding-left: 20px;
-  grid-row: 2/3;
-  font-size: 18px;
+.page-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin: 0 auto;
+  width: 100px;
+}
+
+
+.page, #page {
+
+  display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
   color: #000;
 
 }
